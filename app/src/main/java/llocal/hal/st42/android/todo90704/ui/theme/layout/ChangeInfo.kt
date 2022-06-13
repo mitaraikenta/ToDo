@@ -51,7 +51,6 @@ fun changeInfo(){
     val (text, setText) = remember { mutableStateOf("") }
     val (apd, setApd) = remember { mutableStateOf("") }
 
-    TopAppBar()
 
     Text(text = "タスク情報更新",
         modifier = Modifier.padding(top = 60.dp))
@@ -89,10 +88,5 @@ fun changeInfo(){
 
 }
 
-@Composable
-@Preview
-fun Info(){
-    changeInfo()
-}
 
 
