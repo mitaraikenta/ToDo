@@ -1,4 +1,4 @@
-package llocal.hal.st42.android.todo90704.ui.theme.data
+package llocal.hal.st42.android.todo90704.data
 
 import android.app.Application
 import androidx.lifecycle.LiveData

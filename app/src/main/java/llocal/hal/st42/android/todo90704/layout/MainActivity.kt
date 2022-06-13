@@ -1,4 +1,4 @@
-package llocal.hal.st42.android.todo90704
+package llocal.hal.st42.android.todo90704.layout
 
 import android.os.Bundle
 import android.view.WindowManager
@@ -9,8 +9,9 @@ import androidx.compose.runtime.Composable
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import llocal.hal.st42.android.todo90704.NavMain
 import llocal.hal.st42.android.todo90704.ui.theme.ToDo90704Theme
-import llocal.hal.st42.android.todo90704.ui.theme.data.TodoViewModel
+import llocal.hal.st42.android.todo90704.data.TodoViewModel
 
 class MainActivity : ComponentActivity() {
 
